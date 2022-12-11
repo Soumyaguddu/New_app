@@ -11,18 +11,7 @@ class MyApp extends StatelessWidget {
 
     return const MaterialApp(
       home:HomePage() ,
-
-     int days=30;
-     String name="Soumyajit";
-     num temp=30.5;
-     var nameNow="Soumyajit";
-    return MaterialApp(
-      home:Material(
-        child: Center(
-          child:  Text("Welcome to $nameNow for $days days to flutter,\ntoday temp $temp"),
-        ),
-      ) ,
-
     );
+
   }
 }
