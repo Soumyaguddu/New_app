@@ -9,10 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
      int days=30;
      String name="Soumyajit";
+     num temp=30.5;
+     var nameNow="Soumyajit";
     return MaterialApp(
       home:Material(
         child: Center(
-          child:  Text("Welcome to $name for $days days to flutter"),
+          child:  Text("Welcome to $nameNow for $days days to flutter,\ntoday temp $temp"),
         ),
       ) ,
     );
