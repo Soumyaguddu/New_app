@@ -6,7 +6,6 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     int days=30;
-    String name="Soumyajit";
     num temp=30.5;
     var nameNow="Soumyajit";
     return MaterialApp(
