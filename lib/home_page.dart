@@ -8,12 +8,14 @@ class HomePage extends StatelessWidget {
     int days=30;
     num temp=30.5;
     var nameNow="Soumyajit";
-    return MaterialApp(
-      home:Material(
-        child: Center(
-          child:  Text("Welcome to $nameNow for $days days to flutter,\ntoday temp $temp"),
-        ),
-      ) ,
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Catalog"),
+      ),
+      body: Center(
+        child:  Text("Welcome to $nameNow for $days days to flutter,\ntoday temp $temp"),
+      ),
+      drawer: const Drawer(),
 
     );
 
